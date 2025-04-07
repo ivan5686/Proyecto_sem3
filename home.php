@@ -1,8 +1,7 @@
 <?php
 include 'header.php'; 
 
-// Inicia el bucle de WordPress
-include 'functions.php'; // Asegúrate de que este archivo existe y contiene la función get_header()
+include 'functions.php';
 if (have_posts()) : while (have_posts()) : the_post(); ?>   
 
     <!-- Contenedor de artículos -->
